@@ -31,3 +31,6 @@ Projek ini menggunakan dua dataset, yaitu:
 
 ## Variabel Ouput (target yang akan diprediksi):
 - y: apakah klien berlangganan deposito berjangka? (biner: "yes","no")
+
+Banking Marketing Targets Dataset
+https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets
