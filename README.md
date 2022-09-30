@@ -34,3 +34,5 @@ Projek ini menggunakan dua dataset, yaitu:
 
 Banking Marketing Targets Dataset
 https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets
+
+Testing
