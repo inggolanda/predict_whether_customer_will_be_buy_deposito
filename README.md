@@ -17,13 +17,13 @@ Projek ini menggunakan dua dataset, yaitu:
 - loan: memiliki pinjaman pribadi? (kategorikal: 'no','yes','unknown')
 - balance: saldo individual.
 
-## Terkait dengan kontak terakhir dari kampanye saat ini
+**Terkait dengan kontak terakhir dari kampanye saat ini**
 - contact: jenis komunikasi ketika dihubungi (kategorikal: "unknown","telephone","cellular")
 - day: hari atau tanggal terakhir dihubungi (numerikal)
 - month: bulan terakhir dihubungi (kategorikal: "jan", "feb", "mar", …, "nov", "dec")
 - duration: durasi kontak terakhir, dalam detik (numeric)
 
-## Kolom lainnya
+**Kolom lainnya**
 - campaign: jumlah kontak yang dilakukan selama kampanye ini dan untuk klien ini (numerikal)
 - pdays: jumlah hari yang berlalu setelah klien terakhir dihubungi dari kampanye sebelumnya (numerikal, -1 berarti klien belum dihubungi sebelumnya)
 - previous: jumlah kontak yang dilakukan sebelum kampanye ini dan untuk klien ini (numerikal)
