@@ -42,6 +42,9 @@ Projek ini menggunakan dua dataset, yaitu:
 - Yang perlu di follow up saat data pre-processing dapat melakukan standarisasi ataupun normalisasi. Solusi lainnya menggunakan sebagian besar data saja (misalnya 90% data)
 - Dari nilai skewness dan visualisasi dapat dikatakan bahwa tipe data numerikal memiliki pola persebaran data skew positif dimana nilai mean lebih besar dari pada median, kecuali data kolom 'day' yang hampir menyerupai distribusi normal.
 
+## Multivariate Analysis
+- Korelasi antar feature dan label lemah. Namun, semua feature dapat dimanfaatkan untuk melakukan analisis kecuali feature 'month' dan 'pdays'.
+- Korelasi antar feature lemah. Melakukan pengubahan tipe data kategorikal menjadi numerikal dan membuang kolom 'pdays' dikarenakan redundant dengan kolom 'previous'.
 
 ## **Insight Bisnis**
 1. Nasabah yang dihubungi pada durasi dibawah 540 detik lebih berpotensi untuk berlangganan deposito. Rekomendasi bisnis yaitu untuk menemukan pola penawaran yang tepat, agar pemasaran telepon bisa dilakukan lebih efektif dengan durasi 2-9 menit.
