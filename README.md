@@ -29,7 +29,7 @@ Projek ini menggunakan dua dataset, yaitu:
 - previous: jumlah kontak yang dilakukan sebelum kampanye ini dan untuk klien ini (numerikal)
 - poutcome: hasil dari kampanye pemasaran sebelumnya (kategorikal: "unknown","other","failure","success")
 
-## Variabel Ouput (target yang akan diprediksi):
+**Variabel Ouput (Target yang akan diprediksi)**
 - y: apakah klien berlangganan deposito berjangka? (biner: "yes","no")
 
 ## TIPE DATA NUMERIKAL
