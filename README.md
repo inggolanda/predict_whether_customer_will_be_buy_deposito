@@ -32,8 +32,11 @@ Projek ini menggunakan dua dataset, yaitu:
 ## Variabel Ouput (target yang akan diprediksi):
 - y: apakah klien berlangganan deposito berjangka? (biner: "yes","no")
 
+**Insight**
+1. Nasabah yang dihubungi pada durasi dibawah 540 detik lebih berpotensi untuk berlangganan deposito. Rekomendasi bisnis yaitu untuk menemukan pola penawaran yang tepat, agar pemasaran telepon bisa dilakukan lebih efektif dengan durasi 2-9 menit.
+2. Nasabah yang dihubungi 1-3 kali lebih berpotensi untuk berlangganan deposito. Rekomendasi bisnis yaitu melakukan campaign cukup 1-3 kali saja.
+3. Usia pada rentang 20-40 tahun lebih berpotensi untuk berlangganan deposito. Rekomendasi bisnis yaitu melakukan pemasaran pada rentang usia 25-40 tahun karena nasabah terbanyak yang berlangganan berada pada rentang tersebut.
+
+
 Banking Marketing Targets Dataset
 https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets
-
-Testing
-test
