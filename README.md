@@ -51,6 +51,33 @@ Projek ini menggunakan dua dataset, yaitu:
 2. Nasabah yang dihubungi 1-3 kali lebih berpotensi untuk berlangganan deposito. Rekomendasi bisnis yaitu melakukan campaign cukup 1-3 kali saja.
 3. Usia pada rentang 20-40 tahun lebih berpotensi untuk berlangganan deposito. Rekomendasi bisnis yaitu melakukan pemasaran pada rentang usia 25-40 tahun karena nasabah terbanyak yang berlangganan berada pada rentang tersebut.
 
+## Data Preprocessing
+
+**Data Cleansing**
+- Check Missing Values
+tidak ada missing value
+- Check Duplicate
+tidak ada data yang duplicate
+- Handling Outliers
+Handling outliers menggunakan metode z-score
+- Feature Transformation
+Sebelum dilakukan feature transformation, terlebih dahulu dilakukan pengecekan distribusi data apakah berdistribusi normal atau tidak dan nilai skewnessnya. Selain itu dilakukan juga pengecekan nilai minimum sebagai pertimbangan untuk melakukan feature transformation. Diperoleh bahwa adanya nilai negatif dan 0 pada data numerik sehingga log transformation tidak dapat digunakan karena akan menjadikannya NaN untuk data bernilai negatif dan -inf untuk data bernilai 0. Dari uji normalitas diperoleh bahwa nilai pvalue <= 0.05 sehingga hipotesis nol ditolak dan distribusi dari data numerik tidak berdistribusi normal/gaussian. Dari hasil pengecekan yang dilakukan, didapatkan kesimpulan untuk
+melakukan normalisasi pada feature numeric
+- Feature Encoding
+Encoding dilakukan pada data yang memiliki nilai yes/no atau pada data yang bersifat ordinal (bertingkat)
+- One Hot Encoding
+Dilakukan pada data kategori yang tidak bersifat ordinal
+- Class Imbalance
+Karena terdapat imbalance pada data target sehingga dilakukan over sampling dengan menggunakan SMOTE
+
+**Feature Engineering**
+- Feature Selection
+Dalam mempersiapkan data untuk modeling kelompok kami memutuskan untuk tidak membuat kolom untuk melihat bagaimana performa modeling dengan menggunakan keseluruhan kolom. Namun jika dalam melakukan proses modeling membuang kolom dapat meningkatkan performa modeling kami akan melakukannya.
+- Feature Extraction
+Tidak ada diperlukan penambahan feature baru dari feature yang sudah ada
+- Feature Tambahan
+Kedepannya mungkin bisa ditambahkan feature berupa Credit Score, Kota Tempat Tinggal, Penghasilan Tahunan, Rata-rata Saldo perbulan
+
 
 Banking Marketing Targets Dataset
 https://www.kaggle.com/datasets/prakharrathi25/banking-dataset-marketing-targets
